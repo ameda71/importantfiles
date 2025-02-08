@@ -1,0 +1,40 @@
+Conceptual Concepts of Dockers
+
+What is Virtualization before deep dive into Containerization
+O.S level virtualization
+Docker vs Virtual Machine
+What is Docker and its History
+Docker Architecture
+Advantages and limitations of Docker
+Components of Docker (Docker Daemon, Docker Client, Docker Host)
+Docker Image
+Docker lifecycle
+Docker Image TAR and Unarchive, Docker container states, Docker Networking
+(Create and Manage), Dockerfile and CD flow
+CD Tools with Docker (Integrating CD tools like Jenkins and Github action using projects)
+Docker Networking
+Docker Security Introduction
+Docker volume
+
+
+
+
+Continuous Integration and Continuous Delivery
+Session 11: CI/CD Workflow with Jenkins
+
+Understanding aggregate functions (SUM, AVG, COUNT)
+Continuous Integration/Continuous Deployment (CI/CD) Workflow Overview
+Understanding JenkinsFile: Exploring Jenkins Jobs, Jenkins Pipeline, and Jenkins File
+Build Triggers in Jenkins: SCM Polling, GITScm Polling, Build Periodically -Uncovering the What, Why, and How
+Groovy File Creation: Conceptualizing and Crafting Groovy Scripts for Jenkins
+Integrating GitHub with Jenkins: Establishing Webhooks for Seamless Collaboration
+Session 12: Advanced Jenkins Configuration and GitLab Integration
+
+Grasping Merge Request Concepts in the CI/CD Process
+Jenkins Master-Slave Configuration: Optimizing Resource Utilization in CI/CD
+Triggering Pipelines Directly from JenkinsFile: Streamlining Automation
+GitLab Branching Strategy: Best Practices for Code Collaboration and Version Control
+Hands-On Experience: Building a Jenkins CI Pipeline with Groovy, Incorporating Various Stages
+Configuring Docker Engineer as the Jenkins Slave - Jenkins Dynamic Slave Configuration
+Jenkins Plugins - Docker, Git, Maven, and other commonly used plugins
+Integrating Kubernetes with Jenkins
