@@ -1,0 +1,47 @@
+terraform workspace --help
+
+var.name
+var.zone
+var.machine_type
+
+
+
+
+variable "name" {
+type = string
+}
+
+variable "zone" {
+type = string
+}
+
+variable "machine_type" {
+type = string
+}
+
+
+
+
+terraform workspace list
+
+terraform workspace new <workspacename>
+
+
+terraform workspace select
+
+terraform workspace show
+
+dev.tfvars
+simple.tfvars
+
+
+
+dev.tfvars 
+--------------
+name zone machinetype
+
+
+
+terraform apply -var-file dev.tfvars --auto-approve
+
+
