@@ -1,0 +1,30 @@
+FROM nginx:latest
+RUN rm -rf /usr/share/nginx/html/*
+COPY . /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx" , "-g" , "daemon off;"]
+
+
+
+
+
+
+docker build -t satyanarayana .
+   docker images
+   docker run -d -p 500:80 --name saiteja satyanarayana
+   docker ps
+   docker exec -it saiteja /bin/bash
+   docker exec -it saiteja sh
+   docker exec -it saiteja /bin/sh
+   docker exec -it saiteja bash
+   docker rm -f saiteja
+   chmod 777 /var/run/docker.sock
+   docker ps
+   docker image
+   docker images
+   docker exec -it saitejaameda /bin/bash
+
+
+
+
+
