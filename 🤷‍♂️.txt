@@ -1,0 +1,25 @@
+terraform basics 👍
+registry snippets 👍
+compute_instance - gcpkey - manual - network - bucket - disk- 👍
+bucket - files (provisions) - 👍
+vpc network - subnet(auto-custom) 👍
+firewall - ports 👍
+
+
+service account ❌
+cloud run❌
+metadata script 👍
+
+load balancing ❌
+workspace👍
+data ❌👍
+modules 👍😒
+
+instance templates❌
+app engine 🎶
+
+
+
+
+
+
